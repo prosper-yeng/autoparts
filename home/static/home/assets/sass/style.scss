@@ -1,0 +1,173 @@
+/*
+Theme Name: Auto Shop
+Theme URI: 
+Author: 
+Author URI: 
+Description: Bausins is a business website template
+Version: 1.0.0
+*/
+
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+
+# Typography
+# Normalize
+# Accessibility
+# Globals
+# Alignments
+# Clearings
+# Posts and pages
+# Captions
+# Galleries
+# Unit test
+# guterberg
+# Gutenberg	Default Style
+# Block Color Palette Colors
+# Sections
+    ## Breadcrumb
+    ## Comments
+    ## Widgets
+    ## Nav Bar
+    ## Top Bar
+    ## Header
+    ## Slider
+    ## How We Are
+    ## Our Process
+    ## Our Service
+    ## Banner Auto Car
+    ## Pricing Table
+    ## Latest News
+    ## Tab Section
+    ## Featured Vehicle
+    ## Service Section
+    ## Car Booking
+    ## Car Adds
+    ## Our Team
+    ## Banner Bottom
+    ## Popular Car
+    ## Service
+    ## Filter
+    ## New Facilities
+    ## Testimonial
+    ## Awesome Blog
+    ## About Us
+    ## Blog
+    ## Blog Details
+    ## Shop Page
+    ## Step Car Sell
+    ## Car Booking Page
+    ## Error 404
+
+
+# Elements
+    ## Back Top
+    ## Preloader
+    ## Search Popup
+    ## Button
+    ## Section Title
+    ## Counterup Item
+    ## Testimonial
+    ## Custom Select
+    ## Custom Calender
+    ## Scroll Down
+    ## Sidenav Menu
+    ## Star Rating
+    ## Price Filter
+    ## Shop Details
+    ## Contact
+    ## Sign In
+    ## Sticky Icon
+    ## Modal
+    ## Menu Cart
+    ## Custom File Upload
+    ## Accordion
+    ## Countdown
+    ## Coming Soon
+    ## Shopping Cart
+    ## Custom Input Number
+    ## Typography
+    ## Icons
+    ## Pagination
+    ## Alert
+
+    --------------------------------------------------------------*/
+
+//== Global Design
+@import "global/mixins";
+@import "global/variables";
+@import "global/global";
+@import "global/gutenberg";
+//== Pages
+
+//== Sections
+@import "sections/breadcrumb";
+@import "sections/comments";
+@import "sections/widgets";
+@import "sections/navbar";
+@import "sections/header";
+
+@import "sections/slider";
+@import "sections/how_weare";
+@import "sections/our_process";
+@import "sections/our_service";
+@import "sections/banner_auto_car";
+@import "sections/pricing_plan";
+@import "sections/latest_news";
+@import "sections/tabs_section";
+@import "sections/featured-vehicles";
+@import "sections/h2_service_section";
+@import "sections/h2_car_booking";
+@import "sections/h2_car_adds";
+@import "sections/h2_our_team";
+@import "sections/h5_banner_bottom";
+@import "sections/h5_popular_car";
+@import "sections/h5_service";
+@import "sections/h5_filter";
+@import "sections/h5_new_facilities";
+@import "sections/h5_testimonial";
+@import "sections/h5_awesome_blog";
+@import "sections/about_us";
+@import "sections/service";
+@import "sections/blog";
+@import "sections/blog_details";
+@import "sections/shop_page";
+@import "sections/step_car_sell";
+@import "sections/car_booking_page";
+@import "sections/error_404";
+@import "sections/footer";
+
+//== Elements
+@import "elements/back_top";
+@import "elements/preloader";
+@import "elements/button";
+@import "elements/section_title";
+@import "elements/counter_up";
+@import "elements/testimonial";
+@import "elements/custom-select";
+@import "elements/search_popup";
+@import "elements/custom_calender";
+@import "elements/scroll_down";
+@import "elements/sidenav_menu";
+@import "elements/rating";
+@import "elements/price_filter";
+@import "elements/shop_details";
+@import "elements/contact";
+@import "elements/sign_in";
+@import "elements/sticky_icon";
+@import "elements/modal";
+@import "elements/menu_cart";
+@import "elements/custom_file_upload";
+@import "elements/accordion";
+@import "elements/countdown";
+@import "elements/coming-soon";
+@import "elements/shopping_cart";
+@import "elements/custom_input_number";
+@import "elements/typography";
+@import "elements/icons";
+@import "elements/pagination";
+@import "elements/alert";
+
+
+

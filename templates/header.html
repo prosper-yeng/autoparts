@@ -1,0 +1,130 @@
+<header>
+    {% load static %}
+    <!--Topbar area-->
+    <div class="topbar-area style-02">
+        <div class="container">
+            <div class="row">
+                <div class="topbar-inner">
+                    <div class="left-content">
+                        Ordered before 17:30, shipped today - Support: (012) 800 456 789
+                    </div>
+                    <div class="right-content">
+                        <div class="social-icon">
+                            <ul>
+                                <li><a class="icon" href="https://twitter.com/codingeeknet" target="_blank"><i
+                                            class="fab fa-twitter"></i></a></li>
+                                <li><a class="icon" href="https://www.instagram.com/codingeeknet"
+                                        target="_blank"><i class="fab fa-instagram"></i></a></li>
+                                <li><a class="icon" href="https://www.facebook.com/codingeek.net/"
+                                        target="_blank"><i class="fab fa-facebook-square"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="custom-select-box style-02">
+                            <select>
+                                <option value="ban">Ban</option>
+                                <option value="eng">Eng</option>
+                                <option value="hindi">Hindi</option>
+                                <option value="tamil">Tamil</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--// Top Bar Area End-->
+
+    <div class="container">
+        <div class="row">
+            <div class="header-bottom-area">
+                <!--Logo Area Start-->
+                <div class="logo-area">
+                    <a href="{% url 'home:index' %}">
+                        <img src="{% static 'home/assets/img/logo.png' %}" alt="Logo">
+                    </a>
+                </div>
+                <!--// Logo Area End-->
+
+                <!--Navbar Area Start Here-->
+                <nav class="navbar navbar-area navbar-expand-lg style-02">
+                    <div class="container nav-container">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#autoshop_main_menu" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="humberger-menu black">
+                                <span class="one"></span>
+                                <span class="two"></span>
+                                <span class="three"></span>
+                            </span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="autoshop_main_menu">
+                            <ul class="navbar-nav">
+                                <li class="menu-item-has-children">
+                                    <a href="#">Home</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="{% url 'home:index' %}">Home Page</a></li>
+                                        <li><a href="#">About Us</a></li>
+                                        <li><a href="#">Contact Us</a></li>
+                                    </ul>
+                                </li>
+
+                                <li class="menu-item-has-children">
+                                    <a href="#">Services</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="{% url 'home:service-booking' %}">Service Booking</a></li>
+                                        <li><a href="#">Services Details</a></li>
+                                        <li><a href="#">Rental Services</a></li>
+                                        <li><a href="#">Rent a Car</a></li>
+                                    </ul>
+                                </li>
+
+                                <li class="menu-item-has-children">
+                                    <a href="#">Shop</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="#">Shop</a></li>
+                                        <li><a href="#">Shop 02</a></li>
+                                    </ul>
+                                </li>
+
+                                <li class="menu-item-has-children">
+                                    <a href="#">Blog</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="#">Blog</a></li>
+                                        <li><a href="#">Blog Details</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="contact.html">Promotion</a></li>
+                            </ul>
+                        </div>
+                        <!--Nav Right Content-->
+                        <div class="nav-right-content black">
+                            <ul>
+                                <li class="cart show-cart">
+                                    <a href="#" class="notification">
+                                        <i class="fa fa-shopping-cart"></i>
+                                        <span class="badge">3</span>
+                                    </a>
+                                </li>
+                                <li class="search" id="search">
+                                    <i class="fa fa-search"></i>
+                                </li>
+                                <li>
+                                    <!-- Humberger -->
+                                    <div class="humberger-menu black toggle-btn">
+                                        <span class="one"></span>
+                                        <span class="two"></span>
+                                        <span class="three"></span>
+                                    </div>
+                                    <!--// Humberger -->
+                                </li>
+                            </ul>
+                        </div>
+                        <!--// Nav Right Content-->
+                    </div>
+                </nav>
+                <!-- navbar area end -->
+            </div>
+            <!--// header Bottom-->
+        </div>
+    </div>
+</header>
