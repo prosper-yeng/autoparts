@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d196085d-3b27-48ce-9675-ab1f25a4801e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/templates/home/blog.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/templates/home/promotion.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/templates/home/testimonial.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autoparts/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/autoparts/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/header.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -98,6 +88,14 @@
       <updated>1597961248260</updated>
       <workItem from="1597961304790" duration="10131000" />
     </task>
+    <task id="LOCAL-00001" summary="I have added urls, views and templates for the shop, shop detail, blog, blog detail, promotion, testimonial.">
+      <created>1598055450661</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1598055450661</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -116,5 +114,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="I have added urls, views and templates for the shop, shop detail, blog, blog detail, promotion, testimonial." />
+    <option name="LAST_COMMIT_MESSAGE" value="I have added urls, views and templates for the shop, shop detail, blog, blog detail, promotion, testimonial." />
   </component>
 </project>
