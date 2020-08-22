@@ -61,18 +61,19 @@
                                     <a href="#">Home</a>
                                     <ul class="sub-menu">
                                         <li><a href="{% url 'home:index' %}">Home Page</a></li>
-                                        <li><a href="#">About Us</a></li>
-                                        <li><a href="#">Contact Us</a></li>
+                                        <li><a href="{% url 'home:about-us' %}">About Us</a></li>
+                                        <li><a href="{% url 'home:contact' %}">Contact Us</a></li>
                                     </ul>
                                 </li>
 
                                 <li class="menu-item-has-children">
                                     <a href="#">Services</a>
                                     <ul class="sub-menu">
+                                         <li><a href="{% url 'home:services' %}">Our services</a></li>
+                                        <li><a href="{% url 'home:service-details' %}">Services Details</a></li>
                                         <li><a href="{% url 'home:service-booking' %}">Service Booking</a></li>
-                                        <li><a href="#">Services Details</a></li>
-                                        <li><a href="#">Rental Services</a></li>
-                                        <li><a href="#">Rent a Car</a></li>
+                                         <li><a href="{% url 'home:rent-car' %}">Rent a Car</a></li>
+
                                     </ul>
                                 </li>
 
