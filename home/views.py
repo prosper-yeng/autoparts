@@ -10,3 +10,27 @@ def service_booking(request):
     template_name = 'home/service-booking.html'
     return render(request, template_name, {})
 
+def shop(request):
+    template_name = 'home/shop.html'
+    return render(request, template_name, {})
+
+def shop_detail(request):
+    template_name = 'home/shop-detail.html'
+    return render(request, template_name, {})
+
+def promotion(request):
+    template_name = 'home/promotion.html'
+    return render(request, template_name, {})
+
+def testimonial(request):
+    template_name = 'home/testimonial.html'
+    return render(request, template_name, {})
+
+def blog(request):
+    template_name = 'home/blog.html'
+    return render(request, template_name, {})
+
+def blog_detail(request):
+    template_name = 'home/blog-detail.html'
+    return render(request, template_name, {})
+

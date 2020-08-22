@@ -1,5 +1,6 @@
 <header>
     {% load static %}
+
     <!--Topbar area-->
     <div class="topbar-area style-02">
         <div class="container">
@@ -19,13 +20,10 @@
                                         target="_blank"><i class="fab fa-facebook-square"></i></a></li>
                             </ul>
                         </div>
-                        <div class="custom-select-box style-02">
-                            <select>
-                                <option value="ban">Ban</option>
-                                <option value="eng">Eng</option>
-                                <option value="hindi">Hindi</option>
-                                <option value="tamil">Tamil</option>
-                            </select>
+                        <div class="languages">
+                            <ul>
+                              <li>{% load google_translate %}{% google_translate type='simple' language='en' %}</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -81,19 +79,25 @@
                                 <li class="menu-item-has-children">
                                     <a href="#">Shop</a>
                                     <ul class="sub-menu">
-                                        <li><a href="#">Shop</a></li>
-                                        <li><a href="#">Shop 02</a></li>
+                                        <li><a href="{% url 'home:shop' %}">Our Shop</a></li>
+                                        <li><a href="{% url 'home:shop_detail' %}">Shop Detail</a></li>
                                     </ul>
                                 </li>
 
                                 <li class="menu-item-has-children">
                                     <a href="#">Blog</a>
                                     <ul class="sub-menu">
-                                        <li><a href="#">Blog</a></li>
-                                        <li><a href="#">Blog Details</a></li>
+                                        <li><a href="{% url 'home:blog' %}">Blog</a></li>
+                                        <li><a href="{% url 'home:blog_detail' %}">Blog Details</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="contact.html">Promotion</a></li>
+                                <li class="menu-item-has-children">
+                                    <a href="#">Customer Care</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="{% url 'home:promotion' %}">Promotion</a></li>
+                                        <li><a href="{% url 'home:testimonial' %}">Testimonial</a></li>
+                                    </ul>
+                                </li>
                             </ul>
                         </div>
                         <!--Nav Right Content-->
