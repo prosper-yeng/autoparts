@@ -1,105 +1,101 @@
-{% extends 'base-2.html' %}
-
-{% block content %}
- <!--Breadcrumb Start-->
-    <div class="breadcrumb-area" style="background-image: url('assets/img/breadcrumb/05.png')">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="breadcrumb-inner text-center">
-                        <h1 class="page-title">Book A Car Repair</h1>
-                        <ul class="page-list">
-                            <li><a href="index.html">Home</a></li>
-                            <li>Car repair</li>
-                        </ul>
-                    </div>
+{% extends 'base-2.html' %} {% load static %} {% block content %}
+<!--Breadcrumb Start-->
+<div class="breadcrumb-area" style="background-image: url('{% static 'home/assets/img/breadcrumb/002.JPG' %}')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="breadcrumb-inner text-center">
+                    <h1 class="page-title">Book A Car Repair</h1>
+                    <ul class="page-list">
+                        <li><a href="index.html">Home</a></li>
+                        <li>Car repair</li>
+                    </ul>
                 </div>
             </div>
         </div>
     </div>
-    <!--// Breadcrumb End-->
+</div>
+<!--// Breadcrumb End-->
 
-    <!--Step Car Sell-->
-    <div class="step-car-sell">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="step-car-sell__thumb margin-minus">
-                        <img src="assets/img/car-sell/01.png" alt="img">
-                    </div>
+<!--Step Car Sell-->
+<div class="step-car-sell">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="step-car-sell__thumb margin-minus">
+                    <img src="{% static 'home/assets/img/car-sell/image_04.JPG' %}" alt="img">
                 </div>
-                <!--// Thumbnail-->
+            </div>
+            <!--// Thumbnail-->
 
-                <div class="col-lg-12 padding-bottom-160">
-                    <div class="step-car-sell__content">
-                        <div class="step-car-sell__details">
-                            <form>
-                                <div class="step-car-sell__details_form style-02">
-                                    <div class="row">
-                                        <div class="col-lg-6">
-                                            <label for="first_name">First Name</label>
-                                            <input id="first_name" name="first-name" type="text" class="form-control">
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <label for="last_name">Last Name</label>
-                                            <input id="last_name" name="last-name" type="text" class="form-control">
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <label for="email_address">Email Address</label>
-                                            <input id="email_address" name="email" type="email" class="form-control">
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <label for="phone_number">Phone Number</label>
-                                            <input id="phone_number" name="number" type="text" class="form-control">
-                                        </div>
-                                        <div class="col-lg-4">
-                                            <label for="car_make">Car Make</label>
-                                            <input id="car_make" type="text" name="car-make" class="form-control">
-                                        </div>
-                                        <div class="col-lg-4">
-                                            <label for="car_model">Model</label>
-                                            <input id="car_model" type="text" name="car-model" class="form-control">
-                                        </div>
-                                        <div class="col-lg-4">
-                                            <label for="fuel_type">Fuel Type</label>
-                                            <input id="fuel_type" type="text" name="fuel-type" class="form-control">
-                                        </div>
-                                        <div class="col-lg-4">
-                                            <label for="engine_size">Engine Size</label>
-                                            <input id="engine_size" type="text" name="engine-size" class="form-control">
-                                        </div>
-                                        <div class="col-lg-4">
-                                            <label>Desired Date And Time</label>
-                                            <input type="text" class="form-control datepicker" autocomplete="off">
-                                        </div>
-                                        <div class="col-lg-4">
-                                            <label for="garage">Preferred Garage</label>
-                                            <input id="garage" type="text" name="garage" class="form-control">
-                                        </div>
+            <div class="col-lg-12 padding-bottom-160">
+                <div class="step-car-sell__content">
+                    <div class="step-car-sell__details">
+                        <form>
+                            <div class="step-car-sell__details_form style-02">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <label for="first_name">First Name</label>
+                                        <input id="first_name" name="first-name" type="text" class="form-control">
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <label for="last_name">Last Name</label>
+                                        <input id="last_name" name="last-name" type="text" class="form-control">
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <label for="email_address">Email Address</label>
+                                        <input id="email_address" name="email" type="email" class="form-control">
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <label for="phone_number">Phone Number</label>
+                                        <input id="phone_number" name="number" type="text" class="form-control">
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <label for="car_make">Car Make</label>
+                                        <input id="car_make" type="text" name="car-make" class="form-control">
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <label for="car_model">Model</label>
+                                        <input id="car_model" type="text" name="car-model" class="form-control">
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <label for="fuel_type">Fuel Type</label>
+                                        <input id="fuel_type" type="text" name="fuel-type" class="form-control">
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <label for="engine_size">Engine Size</label>
+                                        <input id="engine_size" type="text" name="engine-size" class="form-control">
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <label>Desired Date And Time</label>
+                                        <input type="text" class="form-control datepicker" autocomplete="off">
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <label for="garage">Preferred Garage</label>
+                                        <input id="garage" type="text" name="garage" class="form-control">
+                                    </div>
 
-                                        <div class="col-lg-12">
-                                            <div class="d-flex align-items-center">
-                                                <div class="main-btn-wrap padding-top-5 pr-5">
-                                                    <a href="#" class="main-btn black">BOOK NOW</a>
-                                                </div>
-                                                <!--// Main Btn-->
-                                                <p>By submitting this form, you will be requesting trade-in value at no
-                                                    obligation and well be contacted within 48 hours by a sales
-                                                    representative.
-                                                </p>
+                                    <div class="col-lg-12">
+                                        <div class="d-flex align-items-center">
+                                            <div class="main-btn-wrap padding-top-5 pr-5">
+                                                <a href="#" class="main-btn black">BOOK NOW</a>
                                             </div>
+                                            <!--// Main Btn-->
+                                            <p>By submitting this form, you will be requesting trade-in value at no obligation and well be contacted within 48 hours by a sales representative.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
+                            </div>
 
-                            </form>
-                        </div>
+                        </form>
                     </div>
-                    <!--// Step Car Sell Content-->
                 </div>
+                <!--// Step Car Sell Content-->
             </div>
         </div>
     </div>
-    <!--// Step Car Sell-->
+</div>
+<!--// Step Car Sell-->
 
 {% endblock %}

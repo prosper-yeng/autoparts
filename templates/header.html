@@ -14,15 +14,13 @@
                             <ul>
                                 <li><a class="icon" href="https://twitter.com/codingeeknet" target="_blank"><i
                                             class="fab fa-twitter"></i></a></li>
-                                <li><a class="icon" href="https://www.instagram.com/codingeeknet"
-                                        target="_blank"><i class="fab fa-instagram"></i></a></li>
-                                <li><a class="icon" href="https://www.facebook.com/codingeek.net/"
-                                        target="_blank"><i class="fab fa-facebook-square"></i></a></li>
+                                <li><a class="icon" href="https://www.instagram.com/codingeeknet" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                                <li><a class="icon" href="https://www.facebook.com/codingeek.net/" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
                             </ul>
                         </div>
                         <div class="languages">
                             <ul>
-                              <li>{% load google_translate %}{% google_translate type='simple' language='en' %}</li>
+                                <li>{% load google_translate %}{% google_translate type='simple' language='en' %}</li>
                             </ul>
                         </div>
                     </div>
@@ -38,7 +36,7 @@
                 <!--Logo Area Start-->
                 <div class="logo-area">
                     <a href="{% url 'home:index' %}">
-                        <img src="{% static 'home/assets/img/logo.png' %}" alt="Logo">
+                        <img src="{% static 'home/assets/img/log.png' %}" alt="Logo">
                     </a>
                 </div>
                 <!--// Logo Area End-->
@@ -46,9 +44,7 @@
                 <!--Navbar Area Start Here-->
                 <nav class="navbar navbar-area navbar-expand-lg style-02">
                     <div class="container nav-container">
-                        <button class="navbar-toggler" type="button" data-toggle="collapse"
-                            data-target="#autoshop_main_menu" aria-expanded="false"
-                            aria-label="Toggle navigation">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#autoshop_main_menu" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="humberger-menu black">
                                 <span class="one"></span>
                                 <span class="two"></span>
@@ -69,10 +65,10 @@
                                 <li class="menu-item-has-children">
                                     <a href="#">Services</a>
                                     <ul class="sub-menu">
-                                         <li><a href="{% url 'home:services' %}">Our services</a></li>
+                                        <li><a href="{% url 'home:services' %}">Our services</a></li>
                                         <li><a href="{% url 'home:service-details' %}">Services Details</a></li>
                                         <li><a href="{% url 'home:service-booking' %}">Service Booking</a></li>
-                                         <li><a href="{% url 'home:rent-car' %}">Rent a Car</a></li>
+                                        <li><a href="{% url 'home:rent-car' %}">Rent a Car</a></li>
 
                                     </ul>
                                 </li>
