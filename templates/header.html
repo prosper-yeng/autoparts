@@ -68,7 +68,8 @@
                                         <li><a href="{% url 'home:services' %}">Our services</a></li>
                                         <li><a href="{% url 'home:service-details' %}">Services Details</a></li>
                                         <li><a href="{% url 'home:service-booking' %}">Service Booking</a></li>
-                                        <li><a href="{% url 'home:rent-car' %}">Rent a Car</a></li>
+                                        <li><a href="#">Rent a Car</a></li>
+<!--                                        <li><a href="{% url 'home:rent-car' %}">Rent a Car</a></li>-->
 
                                     </ul>
                                 </li>
@@ -88,11 +89,19 @@
                                         <li><a href="{% url 'home:blog_detail' %}">Blog Details</a></li>
                                     </ul>
                                 </li>
+
+                                <li class="menu-item-has-children">
+                                    <a href="#">Promotion</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="{% url 'home:promotion' %}">Promotion</a></li>
+                                    </ul>
+                                </li>
+
                                 <li class="menu-item-has-children">
                                     <a href="#">Customer Care</a>
                                     <ul class="sub-menu">
-                                        <li><a href="{% url 'home:promotion' %}">Promotion</a></li>
                                         <li><a href="{% url 'home:testimonial' %}">Testimonial</a></li>
+                                        <li><a href="#">FAQ</a></li>
                                     </ul>
                                 </li>
                             </ul>
